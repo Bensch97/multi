@@ -1,0 +1,19 @@
+div#tabletop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div#tableside {
+    align-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50px
+}
+div#middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
