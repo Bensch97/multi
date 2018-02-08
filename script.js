@@ -2,6 +2,7 @@
 for (x = 0; x < 11; x++) {
     var hori = document.createElement("p");
     var vert = document.createElement("p");
+    vert.className = "Before";
     var text = document.createTextNode(x);
     var htext = document.createTextNode(x);
     hori.appendChild(htext);
@@ -11,8 +12,9 @@ for (x = 0; x < 11; x++) {
     for (y=0; y < 11; y++) {
         var maths = document.createElement("p");
         var mtext = document.createTextNode(x*y);
+        maths.className = "After";
         maths.appendChild(mtext);
-        document.getElementById("middle").appendChild(maths);
+        document.getElementById("tableside").appendChild(maths);
     }
 };
 // for (y = 0; y < 11; y++) {

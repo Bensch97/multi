@@ -1,19 +1,27 @@
+
 div#tabletop {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: blue;
+    color: white;
 }
 div#tableside {
     align-content: space-between;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    width: 50px
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 550px;
 }
-div#middle {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-content: flex-start;
+p.Before {
+    order: 1;
+    background-color: blue;
+    color: white;
 }
+p.After {
+    order: 2;
+    background-color: aquamarine;
+}
+
 
